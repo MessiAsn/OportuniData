@@ -9,17 +9,23 @@ Busca vagas de tecnologia via Google Jobs (SerpAPI) com filtros avançados de á
 
 ## Configuração
 
-1. Clone o repositório:
+1. **Clone o repositório:**
    ```bash
    git clone <url-do-repositorio>
    cd OportuniData
    ```
-2. Copie o arquivo de exemplo de ambiente e configure sua chave:
-   ```bash
-   cp .env.example .env
-   # Edite o arquivo .env e insira sua SERPAPI_KEY
-   ```
-3. Instale as dependências:
+2. **Configure as variáveis de ambiente:**
+   - Copie o arquivo de exemplo:
+     ```bash
+     cp .env.example .env
+     ```
+   - Abra o arquivo `.env` criado e insira sua chave da SerpAPI:
+     ```env
+     SERPAPI_KEY=sua_chave_aqui
+     ```
+   - Você pode obter sua chave gratuita em: https://serpapi.com/
+   - **Nunca compartilhe sua chave em repositórios públicos.**
+3. **Instale as dependências do projeto:**
    ```bash
    pip install -r requirements.txt
    ```
