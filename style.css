@@ -1,0 +1,159 @@
+/* Estilos customizados para OportuniData - TEMA ESCURO */
+body,
+.stApp {
+  background: linear-gradient(120deg, #181f2a 0%, #232946 100%) !important;
+  color: #f3f6fa !important;
+  font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+}
+
+/* Cabeçalho/banner */
+.oport-header {
+  width: 100%;
+  background: linear-gradient(90deg, #232946 60%, #2563eb 100%);
+  color: #f3f6fa;
+  padding: 2.2em 1.5em 1.2em 1.5em;
+  border-radius: 0 0 18px 18px;
+  margin-bottom: 2.5em;
+  box-shadow: 0 4px 24px 0 #10162499;
+  text-align: center;
+}
+.oport-header h1 {
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.01em;
+  color: #60a5fa;
+}
+.oport-header p {
+  font-size: 1.15em;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 600px;
+  opacity: 0.95;
+  color: #e0e6f7;
+}
+
+/* Filtros */
+.stMultiSelect,
+.stSelectbox,
+.stTextInput,
+.stButton > button {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px 0 #10162444;
+  border: 1.5px solid #2563eb55 !important;
+  background: #232946 !important;
+  color: #f3f6fa !important;
+  font-size: 1.05em !important;
+  margin-bottom: 1.1em !important;
+}
+.stButton > button {
+  background: linear-gradient(90deg, #2563eb 60%, #60a5fa 100%) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding: 0.6em 2.2em !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px 0 #10162444;
+  transition: background 0.2s, transform 0.15s;
+}
+.stButton > button:hover {
+  background: linear-gradient(90deg, #60a5fa 60%, #2563eb 100%) !important;
+  transform: scale(1.03);
+}
+
+/* Rodapé */
+.oport-footer {
+  width: 100%;
+  text-align: center;
+  color: #60a5fa;
+  font-size: 1em;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  opacity: 0.7;
+}
+
+/* Cards de vaga (dark) */
+.vaga-card {
+  background: #232946;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px 0 #10162499;
+  padding: 1.3em 1.7em 1.3em 1.7em;
+  margin-bottom: 2em;
+  border-left: 6px solid #60a5fa;
+  transition: box-shadow 0.2s, transform 0.15s;
+  position: relative;
+}
+.vaga-card:hover {
+  box-shadow: 0 8px 32px 0 #2563eb33;
+  transform: translateY(-2px) scale(1.01);
+}
+.vaga-titulo {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: #60a5fa;
+  margin-bottom: 0.25em;
+  letter-spacing: 0.01em;
+}
+.vaga-empresa {
+  font-size: 1.08em;
+  color: #f3f6fa;
+  margin-bottom: 0.15em;
+  font-weight: 500;
+}
+.vaga-local {
+  font-size: 1em;
+  color: #b3b9c9;
+  margin-bottom: 0.6em;
+}
+.vaga-desc {
+  font-size: 1em;
+  color: #e0e6f7;
+  margin-bottom: 0.9em;
+  line-height: 1.5;
+}
+.vaga-link {
+  font-size: 1.05em;
+  color: #fff;
+  background: #2563eb;
+  padding: 0.48em 1.3em 0.48em 1.1em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 8px 0 #2563eb33;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  margin-right: 0.7em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  outline: none;
+  border: none;
+}
+.vaga-link:hover,
+.vaga-link:focus {
+  background: #60a5fa;
+  color: #232946;
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px 0 #60a5fa33;
+}
+.vaga-link:active {
+  background: #1d4ed8;
+}
+.vaga-link:focus {
+  box-shadow: 0 0 0 3px #60a5fa88;
+}
+.vaga-link svg {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: middle;
+  fill: #fff;
+}
+@media (max-width: 700px) {
+  .vaga-card {
+    padding: 1em 0.7em 1em 0.7em;
+  }
+  .vaga-titulo {
+    font-size: 1.1em;
+  }
+  .vaga-desc {
+    font-size: 0.95em;
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "júnior": [
+    "júnior",
+    "junior",
+    "jr",
+    "jun",
+    "júnior(a)",
+    "junior(a)",
+    "entry level",
+    "iniciante",
+    "trainee",
+    "estagiário",
+    "estagiaria",
+    "estágio",
+    "intern",
+    "internship",
+    "entry"
+  ],
+  "pleno": [
+    "pleno",
+    "plena",
+    "mid",
+    "middle",
+    "pleno(a)",
+    "intermediate",
+    "intermediário",
+    "intermediaria",
+    "mid-level",
+    "midlevel"
+  ],
+  "sênior": [
+    "sênior",
+    "senior",
+    "sr",
+    "senior(a)",
+    "sênior(a)",
+    "advanced",
+    "experiente",
+    "especialista",
+    "lead",
+    "líder",
+    "líder técnico",
+    "tech lead",
+    "principal",
+    "staff",
+    "expert",
+    "seniority"
+  ],
+  "estágio": [
+    "estágio",
+    "estagiário",
+    "estagiaria",
+    "intern",
+    "internship",
+    "trainee",
+    "entry level",
+    "iniciante"
+  ],
+  "trainee": [
+    "trainee",
+    "treinee",
+    "treinamento",
+    "entry level",
+    "iniciante",
+    "estágio",
+    "intern"
+  ],
+  "tech lead": [
+    "tech lead",
+    "líder técnico",
+    "líder",
+    "lead",
+    "principal",
+    "staff",
+    "especialista",
+    "expert",
+    "senior",
+    "sênior"
+  ]
+}

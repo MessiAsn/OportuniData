@@ -1,0 +1,17 @@
+# Ignore arquivos de ambiente e outros arquivos sensíveis
+.env
+.env.*
+# VSCode
+.vscode/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Jupyter
+.ipynb_checkpoints/
+# Sistema
+.DS_Store
+Thumbs.db
+# Outros
+*.log

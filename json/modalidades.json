@@ -1,0 +1,107 @@
+[
+  {
+    "nome": "Tempo Integral",
+    "sinonimos": [
+      "tempo integral",
+      "full time",
+      "integral",
+      "período integral",
+      "trabalho integral",
+      "fulltime"
+    ]
+  },
+  {
+    "nome": "Meio Período",
+    "sinonimos": [
+      "meio período",
+      "part time",
+      "meio periodo",
+      "meio-expediente",
+      "meio expediente",
+      "part-time",
+      "parcial"
+    ]
+  },
+  {
+    "nome": "Temporário",
+    "sinonimos": [
+      "temporário",
+      "temporaria",
+      "temporário(a)",
+      "temporaria(a)",
+      "temporário(a)",
+      "contrato temporário",
+      "temporary",
+      "temp",
+      "temporário(a)"
+    ]
+  },
+  {
+    "nome": "Contrato",
+    "sinonimos": [
+      "contrato",
+      "contratada",
+      "contratado",
+      "contract",
+      "contratual",
+      "contratação"
+    ]
+  },
+  {
+    "nome": "Freelancer",
+    "sinonimos": [
+      "freelancer",
+      "freelance",
+      "freela",
+      "autônomo",
+      "autonoma",
+      "autônoma",
+      "autonomo",
+      "freelancer(a)"
+    ]
+  },
+  {
+    "nome": "PJ",
+    "sinonimos": [
+      "pj",
+      "pessoa jurídica",
+      "pessoa juridica",
+      "pj (pessoa jurídica)",
+      "pj (pessoa juridica)"
+    ]
+  },
+  {
+    "nome": "CLT",
+    "sinonimos": [
+      "clt",
+      "carteira assinada",
+      "celetista",
+      "regime clt",
+      "clt (carteira assinada)"
+    ]
+  },
+  {
+    "nome": "Voluntário",
+    "sinonimos": [
+      "voluntário",
+      "voluntaria",
+      "voluntário(a)",
+      "voluntaria(a)",
+      "volunteer"
+    ]
+  },
+  {
+    "nome": "Estágio",
+    "sinonimos": ["estágio", "estagiário", "estagiaria", "intern", "internship"]
+  },
+  {
+    "nome": "Trainee",
+    "sinonimos": [
+      "trainee",
+      "treinee",
+      "treinamento",
+      "entry level",
+      "iniciante"
+    ]
+  }
+]

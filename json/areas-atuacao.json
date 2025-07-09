@@ -1,0 +1,255 @@
+[
+  {
+    "nome": "Desenvolvedor Backend",
+    "sinonimos": [
+      "desenvolvedor backend",
+      "backend",
+      "back-end",
+      "back end",
+      "desenvolvedor back-end",
+      "programador backend",
+      "backend developer",
+      "back-end developer",
+      "engenheiro backend",
+      "backend engineer"
+    ]
+  },
+  {
+    "nome": "Desenvolvedor Frontend",
+    "sinonimos": [
+      "desenvolvedor frontend",
+      "frontend",
+      "front-end",
+      "front end",
+      "desenvolvedor front-end",
+      "programador frontend",
+      "frontend developer",
+      "front-end developer",
+      "engenheiro frontend",
+      "frontend engineer"
+    ]
+  },
+  {
+    "nome": "Desenvolvedor Full Stack",
+    "sinonimos": [
+      "desenvolvedor full stack",
+      "full stack",
+      "fullstack",
+      "full-stack",
+      "desenvolvedor fullstack",
+      "programador full stack",
+      "full stack developer",
+      "fullstack developer",
+      "engenheiro full stack",
+      "full stack engineer"
+    ]
+  },
+  {
+    "nome": "Data Scientist",
+    "sinonimos": [
+      "data scientist",
+      "cientista de dados",
+      "ciência de dados",
+      "data science",
+      "analista de dados",
+      "data analyst",
+      "engenheiro de dados",
+      "data engineer"
+    ]
+  },
+  {
+    "nome": "Analista de Dados",
+    "sinonimos": [
+      "analista de dados",
+      "data analyst",
+      "dados",
+      "data analysis",
+      "analista dados",
+      "analista dados jr",
+      "analista dados pleno",
+      "analista dados sênior"
+    ]
+  },
+  {
+    "nome": "Engenheiro de Software",
+    "sinonimos": [
+      "engenheiro de software",
+      "engenharia de software",
+      "software engineer",
+      "software developer",
+      "desenvolvedor de software",
+      "programador de software"
+    ]
+  },
+  {
+    "nome": "DevOps Engineer",
+    "sinonimos": [
+      "devops",
+      "devops engineer",
+      "engenheiro devops",
+      "engenharia devops",
+      "dev ops",
+      "dev-ops",
+      "site reliability",
+      "sre",
+      "cloud engineer"
+    ]
+  },
+  {
+    "nome": "QA Engineer",
+    "sinonimos": [
+      "qa",
+      "qa engineer",
+      "engenheiro de qa",
+      "quality assurance",
+      "analista de testes",
+      "testador",
+      "testes",
+      "qa analyst",
+      "quality analyst",
+      "test engineer"
+    ]
+  },
+  {
+    "nome": "Product Manager",
+    "sinonimos": [
+      "product manager",
+      "gerente de produto",
+      "gestor de produto",
+      "product owner",
+      "po",
+      "pm",
+      "gestão de produto"
+    ]
+  },
+  {
+    "nome": "UI/UX Designer",
+    "sinonimos": [
+      "ui/ux designer",
+      "ux designer",
+      "ui designer",
+      "designer de interface",
+      "designer de experiência",
+      "user experience",
+      "user interface",
+      "ux",
+      "ui",
+      "product design"
+    ]
+  },
+  {
+    "nome": "Mobile Developer",
+    "sinonimos": [
+      "mobile developer",
+      "desenvolvedor mobile",
+      "programador mobile",
+      "engenheiro mobile",
+      "mobile engineer",
+      "mobile",
+      "app developer",
+      "desenvolvedor de aplicativos"
+    ]
+  },
+  {
+    "nome": "Cloud Engineer",
+    "sinonimos": [
+      "cloud engineer",
+      "engenheiro de cloud",
+      "engenheiro de nuvem",
+      "cloud",
+      "cloud computing",
+      "engenharia de cloud",
+      "engenharia de nuvem"
+    ]
+  },
+  {
+    "nome": "Machine Learning Engineer",
+    "sinonimos": [
+      "machine learning engineer",
+      "engenheiro de machine learning",
+      "engenheiro de aprendizado de máquina",
+      "ml engineer",
+      "machine learning",
+      "aprendizado de máquina",
+      "ml"
+    ]
+  },
+  {
+    "nome": "Cybersecurity Analyst",
+    "sinonimos": [
+      "cybersecurity analyst",
+      "analista de cibersegurança",
+      "analista de segurança",
+      "cybersecurity",
+      "segurança da informação",
+      "infosec",
+      "security analyst"
+    ]
+  },
+  {
+    "nome": "Database Administrator",
+    "sinonimos": [
+      "database administrator",
+      "dba",
+      "administrador de banco de dados",
+      "administração de banco de dados",
+      "banco de dados",
+      "database admin"
+    ]
+  },
+  {
+    "nome": "Game Developer",
+    "sinonimos": [
+      "game developer",
+      "desenvolvedor de jogos",
+      "programador de jogos",
+      "engenheiro de jogos",
+      "game dev",
+      "game designer",
+      "game engineer"
+    ]
+  },
+  {
+    "nome": "Embedded Systems Engineer",
+    "sinonimos": [
+      "embedded systems engineer",
+      "engenheiro de sistemas embarcados",
+      "sistemas embarcados",
+      "engenharia de sistemas embarcados",
+      "embedded engineer"
+    ]
+  },
+  {
+    "nome": "Network Engineer",
+    "sinonimos": [
+      "network engineer",
+      "engenheiro de redes",
+      "engenharia de redes",
+      "networking",
+      "network administrator",
+      "administrador de redes"
+    ]
+  },
+  {
+    "nome": "Support Analyst",
+    "sinonimos": [
+      "support analyst",
+      "analista de suporte",
+      "suporte técnico",
+      "analista suporte",
+      "suporte",
+      "support"
+    ]
+  },
+  {
+    "nome": "Scrum Master",
+    "sinonimos": [
+      "scrum master",
+      "scrum",
+      "agile master",
+      "agile coach",
+      "scrum leader",
+      "líder scrum"
+    ]
+  }
+]

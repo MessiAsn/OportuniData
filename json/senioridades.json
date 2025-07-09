@@ -1,0 +1,126 @@
+[
+  {
+    "nome": "Estágio",
+    "sinonimos": [
+      "estágio",
+      "estagiário",
+      "estagiaria",
+      "intern",
+      "internship",
+      "trainee",
+      "entry level",
+      "iniciante"
+    ]
+  },
+  {
+    "nome": "Júnior",
+    "sinonimos": [
+      "júnior",
+      "junior",
+      "jr",
+      "jun",
+      "júnior(a)",
+      "junior(a)",
+      "entry level",
+      "iniciante",
+      "trainee",
+      "estagiário",
+      "estagiaria",
+      "estágio",
+      "intern",
+      "internship",
+      "entry"
+    ]
+  },
+  {
+    "nome": "Pleno",
+    "sinonimos": [
+      "pleno",
+      "plena",
+      "mid",
+      "middle",
+      "pleno(a)",
+      "intermediate",
+      "intermediário",
+      "intermediaria",
+      "mid-level",
+      "midlevel"
+    ]
+  },
+  {
+    "nome": "Sênior",
+    "sinonimos": [
+      "sênior",
+      "senior",
+      "sr",
+      "senior(a)",
+      "sênior(a)",
+      "advanced",
+      "experiente",
+      "especialista",
+      "lead",
+      "líder",
+      "líder técnico",
+      "tech lead",
+      "principal",
+      "staff",
+      "expert",
+      "seniority"
+    ]
+  },
+  {
+    "nome": "Especialista",
+    "sinonimos": [
+      "especialista",
+      "expert",
+      "especialista(a)",
+      "consultor",
+      "consultora",
+      "consultant",
+      "senior",
+      "sênior"
+    ]
+  },
+  {
+    "nome": "Tech Lead",
+    "sinonimos": [
+      "tech lead",
+      "líder técnico",
+      "líder",
+      "lead",
+      "principal",
+      "staff",
+      "especialista",
+      "expert",
+      "senior",
+      "sênior"
+    ]
+  },
+  {
+    "nome": "Coordenador",
+    "sinonimos": [
+      "coordenador",
+      "coordenadora",
+      "coordinator",
+      "coord.",
+      "coord",
+      "líder",
+      "lead"
+    ]
+  },
+  {
+    "nome": "Gerente",
+    "sinonimos": [
+      "gerente",
+      "manager",
+      "gestor",
+      "gestora",
+      "head",
+      "diretor",
+      "diretora",
+      "chief",
+      "coordenador",
+      "coordenadora"
+    ]
+  }
+]
