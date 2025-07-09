@@ -51,18 +51,6 @@ streamlit run app.py
 - Paginação automática (até 3 páginas por busca).
 - Interface moderna e responsiva com Streamlit.
 
-## Variáveis de Ambiente (.env)
-
-O arquivo `.env` armazena configurações sensíveis e **não deve ser versionado**. Para rodar o sistema, você precisa criar um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
-
-```
-SERPAPI_KEY=sua_chave_aqui
-```
-
-- Substitua `sua_chave_aqui` pela sua chave pessoal da SerpAPI.
-- Nunca compartilhe sua chave em repositórios públicos.
-- Use o arquivo `.env.example` como modelo.
-
 ## Licença
 
 MIT
