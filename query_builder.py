@@ -1,6 +1,3 @@
-# query_builder.py
-
-
 def montar_query_serpapi(
     linguagens,
     areas_sinonimos,
@@ -10,7 +7,6 @@ def montar_query_serpapi(
     palavra_chave,
 ):
     partes = []
-    # Se nenhum filtro tech for selecionado, adiciona termo tech fixo
     if not (linguagens or areas_sinonimos or senioridades_sinonimos):
         partes.append(
             "(tecnologia OR TI OR T.I. OR tech OR tecnologia da informação OR informação OR dev OR desenvolvedor OR desenvolvedora OR programador OR programadora OR software OR engenharia de software OR analista de sistemas OR informática OR sistemas OR computação OR IT OR information technology OR developer OR programmer OR software engineer OR system analyst OR computer science)"

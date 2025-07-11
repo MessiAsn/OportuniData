@@ -30,12 +30,10 @@ def carregar_estados_cidades():
 
 
 def extrair_nomes(lista_dicts):
-    """Extrai apenas os nomes para exibição nos filtros."""
     return [item["nome"] for item in lista_dicts]
 
 
 def buscar_sinonimos(lista_dicts, selecionados):
-    """Dado uma lista de dicts e uma lista de nomes selecionados, retorna lista de listas de sinônimos."""
     sinonimos = []
     for nome in selecionados:
         for item in lista_dicts:

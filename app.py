@@ -50,12 +50,10 @@ linguagens_sel = st.multiselect("Linguagens", linguagens_nomes)
 senioridades_sel = st.multiselect("Senioridade", senioridades_nomes)
 tipos_sel = st.multiselect("Tipo de vaga", tipos_nomes)
 
-# Adiciona campo de busca livre
 palavra_chave = st.text_input("Palavra-chave (opcional)")
 
 
-# Só considera cidades na query se houver seleção, nunca inclui estado
-cidades_sel = []  # Garante definição antes do uso
+cidades_sel = [] 
 cidades_query = cidades_sel if cidades_sel else []
 
 tem_filtros = any(
@@ -69,7 +67,6 @@ tem_filtros = any(
     ]
 )
 
-# Busca sinônimos para montagem da query
 areas_sinonimos = buscar_sinonimos(areas, areas_sel)
 senioridades_sinonimos = buscar_sinonimos(senioridades, senioridades_sel)
 tipos_sinonimos = buscar_sinonimos(tipos, tipos_sel)
@@ -87,12 +84,10 @@ query = (
     else ""
 )
 
-# Checkbox para busca apenas no Brasil
 apenas_brasil = st.checkbox(
     "Buscar apenas vagas no Brasil", value=True, key="apenas_brasil"
 )
 
-# Inicializa variáveis
 estado_sel = None
 cidades_sel = []
 cidades_query = []
@@ -113,7 +108,6 @@ if apenas_brasil:
         else f"{', '.join(cidades_sel)}, Brazil" if cidades_sel else "Brazil"
     )
 else:
-    # Busca global, sem restrição de localização e sem mostrar campo extra
     cidades_query = []
     location_param = ""
 
@@ -126,14 +120,12 @@ params_api = {
     "api_key": get_api_key(),
 }
 
-# Carrega e injeta o CSS externo (sempre)
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 if not tem_filtros or not query.strip():
     st.warning("Preencha pelo menos um filtro para realizar a busca.")
 else:
-    # Exibe resumo amigável dos filtros selecionados
     st.markdown("#### Filtros selecionados:")
     if areas_sel:
         st.write("**Áreas:**", ", ".join(areas_sel))
@@ -164,7 +156,6 @@ else:
                     serp_client = Client(api_key=api_key)
                     results = serp_client.search(params_api)
                     jobs = results.get("jobs_results", [])
-                    # Se não encontrar vagas, tenta uma query mais simples (apenas linguagem + vaga)
                     if (
                         not jobs
                         and linguagens_sel
@@ -186,7 +177,6 @@ else:
                         st.info(
                             "Poucas vagas encontradas. Buscando novamente de forma mais ampla..."
                         )
-                    # Implementa paginação correta usando next_page_token
                     all_jobs = jobs.copy() if jobs else []
                     next_page_token = results.get("serpapi_pagination", {}).get(
                         "next_page_token"
@@ -216,7 +206,6 @@ else:
                                 unsafe_allow_html=True,
                             )
                         st.success(f"{len(all_jobs)} vagas encontradas.")
-                        # CSV download
                         df = pd.DataFrame(
                             [
                                 {
